@@ -1,5 +1,9 @@
 public class  Main{
     public static void main(String[] args) {
-        System.out.println("Hello");
+        Car carObj = new Car();
+        Bicycle bicycleObj = new Bicycle();
+        
+        carObj.move();
+        bicycleObj.move();;
     }
 } 
